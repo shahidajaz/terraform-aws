@@ -19,6 +19,6 @@ resource "aws_instance" "web" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = var.ec2_name
+    Name = var.aws_vm_name
   }
 }
